@@ -13,22 +13,7 @@ public class TestBase {
     @BeforeClass
     public static void setup(){
         RestAssured.baseURI = "https://restapi.wcaquino.me";
-
-    //Request
-//        RequestSpecBuilder requestBuilder = new RequestSpecBuilder();
-//
-//        requestBuilder.log(LogDetail.ALL);
-//        requestSpecification = requestBuilder.build();
-//
-//        RestAssured.requestSpecification = requestSpecification;
-//
-    //Response
-//        ResponseSpecBuilder responseBuilder = new ResponseSpecBuilder();
-//
-//        responseBuilder.log(LogDetail.ALL);
-//        responseSpecification = responseBuilder.build();
-//
-//        RestAssured.responseSpecification = responseSpecification;
+//      RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
 
     }
 }
