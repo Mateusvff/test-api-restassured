@@ -1,9 +1,8 @@
-package test.aplication;
+package test.application;
 
 import base.TestBase;
 import static io.restassured.RestAssured.*;
 
-import groovyjarjarantlr.TokenStreamRewriteEngine;
 import io.restassured.http.ContentType;
 import static org.hamcrest.Matchers.*;
 
@@ -13,11 +12,11 @@ import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SeuBarriga extends TestBase {
+public class TestSeuBarrigaAPI extends TestBase {
 
     private String token;
 
-    //Login na API via token JWT para os casos
+    //Login na API via token JWT para os casos de teste
     @Before
     public void login(){
         Map<String, String> login = new HashMap<>();
