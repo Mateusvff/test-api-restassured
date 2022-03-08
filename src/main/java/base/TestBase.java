@@ -12,8 +12,8 @@ public class TestBase {
 
     @BeforeClass
     public static void setup(){
-        RestAssured.baseURI = "https://restapi.wcaquino.me";
-//      RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+        RestAssured.baseURI = "https://barrigarest.wcaquino.me";
+        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
 
     }
 }
