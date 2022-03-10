@@ -19,8 +19,4 @@ public class TestSerializacaoObjeto {
         return age;
     }
 
-    public Double getSalary(){
-        return salary;
-    }
-
 }
